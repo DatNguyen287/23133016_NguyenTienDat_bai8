@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* Body và font */
+body {
+    background-color: #f4ece1; /* nền vàng nhạt cổ điển */
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #4b3b2a; /* nâu đậm */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Tiêu đề chính */
+h1, h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #6b4c3b;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fff; /* tạo hiệu ứng nổi nhẹ */
+}
+
+/* Các đoạn văn */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Label */
+label {
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Form input */
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    padding: 6px 10px;
+    border: 1px solid #bfa77f;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-family: "Georgia", serif;
+}
+
+/* Nút submit */
+input[type="submit"] {
+    background-color: #d9b382;
+    color: #4b3b2a;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #caa16d;
+}
+
+/* Danh sách user */
+ul {
+    background-color: #fdf6e3;
+    padding: 15px;
+    border: 1px solid #d1bfa5;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Ngang line */
+hr {
+    border: 0;
+    height: 1px;
+    background: #d1bfa5;
+    margin: 20px 0;
+}
+
+/* Vintage style highlight */
+span {
+    background-color: #fff4e6;
+    padding: 2px 6px;
+    border-radius: 3px;
+}

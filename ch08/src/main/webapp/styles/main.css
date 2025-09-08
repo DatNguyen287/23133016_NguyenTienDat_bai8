@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* Body và font */
+body {
+    background-color: #f4ece1; /* nền vàng nhạt cổ điển */
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #4b3b2a; /* nâu đậm */
+    margin: 0;
+    padding: 20px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Tiêu đề chính */
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #6b4c3b;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fff; /* tạo hiệu ứng nổi nhẹ */
+}
+
+/* Các đoạn văn */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Label */
+label {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* Form input */
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    padding: 6px 10px;
+    border: 1px solid #bfa77f;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-family: "Georgia", serif;
+}
+
+/* Nút submit */
+input[type="submit"] {
+    background-color: #d9b382;
+    color: #4b3b2a;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #caa16d;
+}
+
+/* Form căn giữa */
+form {
+    background-color: #fdf6e3;
+    padding: 20px;
+    border: 1px solid #d1bfa5;
+    border-radius: 6px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Khoảng cách giữa các input */
+.pad_top {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Khoảng cách cho nút */
+.margin_left {
+    margin-left: 0;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+/* Vintage highlight cho input */
+input[type="text"], input[type="email"] {
+    background-color: #fff4e6;
+}
